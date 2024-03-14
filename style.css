@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-color: #14310939;
+  font-family: "Raleway", sans-serif;
+  color: #1C2321;
+}
+
+h1{
+  font-size: 30px;
+  color:#225310;
+}
+
+h2{
+  font-size: 25px;
+  color:#3b8022;
+}
+
+p,li{
+  font-size: 20px;
+  font-weight: 300;
+  padding: 15px 15%;
+}
+
+a{
+  display: block;
+  text-decoration:none;
+  padding: 5px;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+#background-flashwhite{
+  background-color: #F7F7F7;
+}
+
+
+.inline-block{
+  display: inline-block;
+  margin: 20px 10px;
+  height: 200px;
+  width: 400px;
+  border: none;
+  box-shadow: none;
+  padding: 30px;
+
+}
+
+#cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+
+}
+
+#height-icones{
+  height: 200px;
+}
+
+div{
+  text-align: center;
+  margin: 20px 10%;
+  background-color: #EFEFEF;
+  border-radius: 2%;
+  padding: 10px;
+  border: 3px solid #AAAE7F;
+  box-shadow: 3px -2px #D0D6B3;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+img{
+  border-radius: 50%;
+  box-shadow: 3px -2px #1431093d;
+}
+
+.icon-size{
+  width: 20px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+  width: 700px;
+}
+
+
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
